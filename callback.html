@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>TikTok CLI Callback</title>
+  <script>
+    // forward everything (code, state, etc.) to the local CLI
+    location = "http://127.0.0.1:8080/callback/" + location.search;
+  </script>
+</head>
+<body>
+  Redirecting back to CLI…
+</body>
+</html>

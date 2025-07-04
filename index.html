@@ -1,0 +1,14 @@
+<!-- Instantly redirect TikTok back to localhost CLI -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>TikTok Redirect</title>
+    <script>
+      location = "http://127.0.0.1:8080/callback/" + location.search;
+    </script>
+  </head>
+  <body>
+    Redirecting...
+  </body>
+</html>
